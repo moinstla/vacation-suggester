@@ -1,0 +1,60 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #EBF5FB;
+}
+
+#florida, #washington, #italy, #newzealand {
+  display: none;
+}
+
+label {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Architects Daughter', cursive;
+  margin-left: 100px;
+}
+
+label, select, button {
+  margin-left: 150px;
+}
+
+form {
+  border: solid black 1px;
+  margin: 30px 200px 50px 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+p {
+  font-size: 15px
+}
+
+.image {
+  position: relative;
+  margin: auto;
+  background-image: url(../img/bluemap2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+  border-radius: 5px;
+  box-shadow: 15px 15px 20px #aaa;
+}
+
+
+/*img {
+  position: relative;
+  box-shadow: 15px 15px 20px #aaa;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  width: 100%
+}*/
