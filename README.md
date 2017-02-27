@@ -1,6 +1,6 @@
 # Vacation Suggester
 
-#### JavaScript and jQuery Independent Project for Epicodus, 1/26/2017
+#### JavaScript and jQuery Independent Project for Epicodus, 2/25/2017
 
 ####By Monique St Laurent
 
