@@ -1,10 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #EBF5FB;
-}
-
-#florida, #washington, #italy, #newzealand {
-  display: none;
+  background-color: #F4F6F7;
+  margin-bottom: 200px;
 }
 
 label {
@@ -14,24 +11,32 @@ label {
 h1 {
   font-size: 80px;
   font-family: 'Architects Daughter', cursive;
-  margin-left: 100px;
+}
+
+h3 {
+  margin-left: 200px;
 }
 
 label, select, button {
   margin-left: 150px;
+  font-size: 15px;
+  color: #212F3C;
+  font-weight: bold;
 }
 
 form {
-  border: solid black 1px;
+  border: dashed black 1px;
   margin: 30px 200px 50px 200px;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 5px;
-  background-color: lightblue;
+  background-color:
+  #D4E6F1;
 }
 
 p {
-  font-size: 15px
+  font-size: 15px;
+  margin-left: 200px;
 }
 
 .image {
@@ -46,15 +51,10 @@ p {
   padding-top: 40px;
   font-size: 60px;
   border-radius: 5px;
-  box-shadow: 15px 15px 20px #aaa;
+  box-shadow: 10px 10px 10px #aaa;
 }
 
-
-/*img {
-  position: relative;
-  box-shadow: 15px 15px 20px #aaa;
-  display: block;
-  margin: auto;
-  border-radius: 5px;
-  width: 100%
-}*/
+#florida, #washingtondc, #italy, #newzealand {
+  display: none;
+  text-align: center;
+}
